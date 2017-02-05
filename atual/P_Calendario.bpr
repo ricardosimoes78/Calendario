@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="P_Calendario.exe"/>
+    <OBJFILES value="P_Calendario.obj U_Calendario.obj U_Projeto.obj U_Relogio.obj 
+      U_Projeto_Arquivo.obj U_Agenda_Arquivo.obj U_Agenda.obj U_Fim.obj"/>
+    <RESFILES value="P_Calendario.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) U_Calendario.dfm U_Fim.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dclocx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="P_Calendario.cpp"/>
+    <INCLUDEPATH value="r:\Dropbox\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="r:\Dropbox\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="P_Calendario.res" FORMNAME="" UNITNAME="P_Calendario.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="P_Calendario.cpp" FORMNAME="" UNITNAME="P_Calendario" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Calendario.cpp" FORMNAME="frm_Calendario" UNITNAME="U_Calendario" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Projeto.cpp" FORMNAME="" UNITNAME="U_Projeto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Relogio.cpp" FORMNAME="" UNITNAME="U_Relogio" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Projeto_Arquivo.cpp" FORMNAME="" UNITNAME="U_Projeto_Arquivo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Agenda_Arquivo.cpp" FORMNAME="" UNITNAME="U_Agenda_Arquivo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Agenda.cpp" FORMNAME="" UNITNAME="U_Agenda" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="U_Fim.cpp" FORMNAME="frm_Fim" UNITNAME="U_Fim" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1046
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=r:\Dropbox\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item1=r:\OneDrive\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item2=S:\OneDrive\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item3=$(BCB)\Projects;R:\CBuilder\Projetos\Calendário;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=r:\Dropbox\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item1=r:\OneDrive\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item2=S:\OneDrive\Angar27\CBuilder\Projetos\Calendário\atual;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item3=$(BCB)\Projects;R:\CBuilder\Projetos\Calendário;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,9 @@
+06:00	_	_		_		_		_		_		_
+08:00	IPJC	DigitoHits	HoraPremium	DigitoHits	HoraPremium	Cadimos		_
+10:00	IPJC	DigitoHits	HoraPremium	DigitoHits	HoraPremium	Cadimos		Jacaraípe
+12:00	_	_		_		_		_		_		Jacaraípe
+14:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		Jacaraípe
+16:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		_
+18:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		_
+20:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		_
+22:00	_	_		_		_		_		_		_
