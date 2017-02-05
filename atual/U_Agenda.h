@@ -1,5 +1,3 @@
-// O que acontece no GitHub ?
-
 #ifndef Base_CPP_H
 #define Base_CPP_H
     #include <vcl.h>
