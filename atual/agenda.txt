@@ -1,8 +1,13 @@
+Editando na m√°quina virtual
+
+----------------------------
+
+
 06:00	_	_		_		_		_		_		_
 08:00	IPJC	DigitoHits	HoraPremium	DigitoHits	HoraPremium	Cadimos		_
-10:00	IPJC	DigitoHits	HoraPremium	DigitoHits	HoraPremium	Cadimos		JacaraÌpe
-12:00	_	_		_		_		_		_		JacaraÌpe
-14:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		JacaraÌpe
+10:00	IPJC	DigitoHits	HoraPremium	DigitoHits	HoraPremium	Cadimos		Jacara√≠pe
+12:00	_	_		_		_		_		_		Jacara√≠pe
+14:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		Jacara√≠pe
 16:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		_
 18:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		_
 20:00	_	JVC		BrenoLopes	JVC		BrenoLopes	Cadimos		_
